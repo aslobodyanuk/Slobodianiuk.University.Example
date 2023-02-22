@@ -15,7 +15,8 @@ namespace Slobodianiuk.University.Example.Test
         {
             IConfigurationBuilder builder = new ConfigurationBuilder()
                         .AddJsonFile("appsettings.json", false)
-                        .AddJsonFile("appsettings.Development.json", true);
+                        .AddJsonFile("appsettings.Development.json", true)
+                        .AddUserSecrets<TestBase>();
 
             IConfigurationRoot configuration = builder.Build();
 
