@@ -4,7 +4,9 @@ https://exampleproject.azurewebsites.net
 
 ## Author
 Andrii Slobodianiuk
+
 slobodyanukdev@gmail.com
+
 https://t.me/@slobodianiukandrii
 
 ## Getting Started
